@@ -1,4 +1,51 @@
 body {
     text-align: center;
     padding-top: 5rem;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 }
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 42px;
+    color: white;
+}
+
+#relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Nerko One', cursive;
+    color: white;   
+}
+
+span {
+    padding: 4rem; 
+}
+
+.container {
+    border-radius: 20px;
+    border: 5px solid white;
+    
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 5rem;
+}
+
+h2 {
+    font-family: 'Nerko One', cursive;
+    font-size: 22px;
+    color: white;
+    padding-top: 5rem;
+    padding: 1rem;
+}
+
+.img-logo {
+    width: 60px;
+    
+}
+
