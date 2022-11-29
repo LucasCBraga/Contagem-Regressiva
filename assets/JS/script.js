@@ -7,9 +7,17 @@ var horas = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutos = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 var segundos = Math.floor((t % (1000 * 60 )) / 1000); 
 
-document.getElementById("timer").innerHTML = dias + "d" + horas + "h" + minutos + "m" + segundos + "s";
+document.getElementById("dia").innerHTML = dias;
+document.getElementById("horas").innerHTML = horas;
+document.getElementById("minutos").innerHTML = minutos;
+document.getElementById("segundos").innerHTML = segundos;
+
+
+
     if ( t < 0) {
         clearInterval(x);
         document.getElementById("timer").innerHTML = "TERMINOU";
+        document.getElementById("dia").innerHTML ="0";
     }
 }, 1000);
+
