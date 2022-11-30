@@ -2,14 +2,13 @@ body {
     text-align: center;
     padding-top: 3rem;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    width: 100%;
 }
 
 h1 {
     font-family: 'Nerko One', cursive;
     font-size: 42px;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 #relogio {
@@ -18,24 +17,25 @@ h1 {
     align-items: center;
     font-size: 32px;
     font-family: 'Nerko One', cursive;
-    color: white;   
+    color: white;
+    padding: 2rem;
 }
 
 span {
-    padding: 4rem; 
+    padding: 4rem;
 }
 
 .container {
     border-radius: 20px;
     border: 5px solid white;
-    
+
 }
 
 .container-footer {
     display: flex;
     justify-content: center;
-    align-items: center;   
-    padding-top: 2rem;
+    align-items: center;
+    padding-top: 3rem;
 }
 
 h2 {
@@ -47,8 +47,47 @@ h2 {
 
 .img-logo {
     width: 60px;
-    margin-top: .5rem;  
+    margin-top: .5rem;
 }
 
 
+@media screen and (max-width: 1024px) {
+    h1 {
+        padding: 1rem;
+    }
 
+    .img-principal {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    body {
+        width: 500px;
+        height: 500px;
+        padding-top: 1rem;
+        background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    }
+
+    h1 {
+        padding: 1rem;
+
+    }
+
+    #relogio {
+        padding: 2rem;
+    }
+
+    span {
+        padding: 1rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 1rem;
+    }
+}
