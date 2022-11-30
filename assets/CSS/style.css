@@ -61,7 +61,7 @@ h2 {
 }
 
 
-@media screen and (max-width:470px) { 
+@media screen and (max-width:470px) {
 
     span {
         padding: .1rem;
@@ -75,5 +75,8 @@ h2 {
         font-size: 18px;
     }
 
+    .musica {
+        width: 50%;
+    }
+
 }
-   
