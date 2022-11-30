@@ -35,7 +35,6 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
 }
 
 h2 {
@@ -57,37 +56,24 @@ h2 {
     }
 
     .img-principal {
-        width: 500px;
+        width: 75%;
     }
 }
 
 
-@media screen and (max-width:470px) {
-    body {
-        width: 500px;
-        height: 500px;
-        padding-top: 1rem;
-        background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
-    }
-
-    h1 {
-        padding: 1rem;
-
-    }
-
-    #relogio {
-        padding: 2rem;
-    }
+@media screen and (max-width:470px) { 
 
     span {
-        padding: 1rem;
+        padding: .1rem;
     }
 
     .container {
-        width: 100%;
+        width: 25%;
     }
 
-    footer {
-        padding-top: 1rem;
+    .smalltext {
+        font-size: 18px;
     }
+
 }
+   
