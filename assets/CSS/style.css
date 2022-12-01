@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    padding-top: 3rem;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 }
 
@@ -8,7 +7,7 @@ h1 {
     font-family: 'Nerko One', cursive;
     font-size: 42px;
     color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #relogio {
@@ -27,7 +26,8 @@ span {
 
 .container {
     border-radius: 20px;
-    border: 5px solid white;
+    border: 5px solid rgb(247, 247, 243);
+    
 
 }
 
@@ -50,14 +50,14 @@ h2 {
     margin-top: .5rem;
 }
 
+@media (min-width: 1920px) and (max-width: 2560px) {
+
+}
 
 @media screen and (max-width: 1024px) {
-    h1 {
-        padding: 1rem;
-    }
-
+    
     .img-principal {
-        width: 75%;
+        width: 55%;
     }
 
     .musica {
