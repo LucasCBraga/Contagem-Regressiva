@@ -1,4 +1,4 @@
-var deadLine = new Date ("dec 03, 2022 23:00:00").getTime();
+var deadLine = new Date ("dec 07, 2022 23:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var t = deadLine - now;
