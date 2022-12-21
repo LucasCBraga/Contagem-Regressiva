@@ -13,6 +13,8 @@ Tela Desktop com contador e player de audio:
 
  ![gif projeto](https://user-images.githubusercontent.com/113993228/205645629-257999ef-37a9-4b71-8c7b-e3f4e5543a70.gif)
  
+ <hr>
+ 
  ## Descrição do Projeto Mobile
 
 ![versao mobile](https://user-images.githubusercontent.com/113993228/205646194-63228a74-96ff-4b7a-8bd2-82fa827d7f67.jpg)
